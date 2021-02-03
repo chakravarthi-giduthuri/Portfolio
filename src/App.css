@@ -100,12 +100,13 @@ nav {
 
 @media screen and (max-width: 768px) {
   nav {
-    height: 15vh;
+    height: 17vh;
     display: flex;
     flex-direction: column;
   }
   .nav-links {
     margin-top: 1rem;
+    margin-bottom: 2rem;
   }
   .main {
     margin-left: 1.5rem;
