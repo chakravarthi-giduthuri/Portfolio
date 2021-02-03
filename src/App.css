@@ -139,7 +139,7 @@ nav {
     top: 0;
     left: 0;
     width: 90%;
-    height: 40%;
+    height: 48%;
     background: linear-gradient(45deg, #480ca8, #7209b7);
     border-radius: 0;
     transform: scaleX(1.27);
@@ -190,9 +190,12 @@ nav {
   margin: auto;
   margin-top: 2rem;
   width: 720px;
-  height: 420px;
+  height: 100%;
   box-shadow: 0 5px 5px -2px rgba(117, 88, 88, 0.5);
   border-radius: 30px;
+}
+.card p {
+  max-height: 100%;
 }
 
 /* .lang {
@@ -206,6 +209,6 @@ nav {
   .card {
     margin-bottom: 3rem;
     width: 320px;
-    height: 720px;
+    height: 100%;
   }
 }
