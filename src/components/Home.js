@@ -2,6 +2,12 @@ import React from "react";
 import "../App.css";
 import me from "./me.jpg";
 import Nav from "./Nav";
+// import { Link } from "react-router-dom";
+import {
+  InstagramOutlined,
+  GithubOutlined,
+  LinkedinOutlined,
+} from "@ant-design/icons";
 function Home() {
   return (
     <div className="section">
@@ -25,6 +31,17 @@ function Home() {
           </div>
         </div>
         <img className="element" src={me} alt="name" />
+      </div>
+      <div className="footer">
+        <a href="https://www.instagram.com/madcodder/">
+          <InstagramOutlined />
+        </a>
+        <a href="https://github.com/chakravarthi-giduthuri">
+          <GithubOutlined />
+        </a>
+        <a href="https://www.linkedin.com/in/chakravarthigiduthuri/">
+          <LinkedinOutlined />
+        </a>
       </div>
     </div>
   );
