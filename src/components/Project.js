@@ -1,6 +1,5 @@
 import React from "react";
 import { CodeOutlined, LinkOutlined } from "@ant-design/icons";
-// import python from "./Python.jpg";
 import "../App.css";
 function Project({ Projects }) {
   return (
@@ -30,6 +29,8 @@ function Project({ Projects }) {
                   </div>
                 </article>
               );
+            } else {
+              return null;
             }
           })}
         </div>
@@ -59,6 +60,8 @@ function Project({ Projects }) {
                   </div>
                 </article>
               );
+            } else {
+              return null;
             }
           })}
         </div>

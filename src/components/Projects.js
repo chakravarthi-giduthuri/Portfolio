@@ -4,6 +4,7 @@ import "../App.css";
 import projects from "./Data";
 import Project from "./Project";
 function Projects() {
+  // eslint-disable-next-line
   const [Projects, setProjects] = useState(projects);
   return (
     <div>
