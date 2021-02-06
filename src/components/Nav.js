@@ -18,7 +18,7 @@ function Nav() {
           <Link to="/projects">
             <li>Projects</li>
           </Link>
-          <Link>
+          <Link to="/about">
             <li>Contact</li>
           </Link>
         </ul>

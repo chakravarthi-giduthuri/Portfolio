@@ -5,15 +5,15 @@ function About() {
   return (
     <div>
       <Nav />
-      <div class="head">
-        <h2 class="title">About Me</h2>
-        <div class="under">
-          <div class="underline"></div>
-          <div class="dot"></div>
-          <div class="underline"></div>
+      <div className="head">
+        <h2 className="title">About Me</h2>
+        <div className="under">
+          <div className="underline"></div>
+          <div className="dot"></div>
+          <div className="underline"></div>
         </div>
       </div>
-      <div class="card">
+      <div className="card">
         <p>
           I am a mechanical engineer. But ever since I was a kid, software
           development was my passion. But I don't know where to start and how to
@@ -36,8 +36,8 @@ function About() {
           There's certainly yet more to learn, yet more problems to solve, and
           yet more to build. And for this, I am very grateful.
         </p>
-        <p class="lang lan">Languages: Python, JavaScript</p>
-        <p class="lan">Frameworks: Django, Reactjs</p>
+        <p className="lang lan">Languages: Python, JavaScript</p>
+        <p className="lan">Frameworks: Django, Reactjs</p>
       </div>
     </div>
   );
