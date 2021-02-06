@@ -23,10 +23,10 @@ function Home() {
           <br />
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              fuga in consequuntur tempora. Rerum, deleniti quaerat? Provident
-              consequuntur perferendis recusandae quisquam saepe cum, inventore,
-              maxime eveniet temporibus ut, nemo minus!
+              I am a mechanical engineer. But my passion makes me learn
+              Programming languages. I was developed many personal full-stack
+              web applications. I am using the Django framework on the backend
+              and Reactjs on the frontend
             </p>
           </div>
         </div>
