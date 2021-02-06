@@ -5,7 +5,7 @@ const projects = [
     category: "django",
     img: "./images/django.png",
     github: "https://github.com/chakravarthi-giduthuri/DjangoAuthenticate",
-    link: "https://todo-task-tracker.netlify.app/",
+    link: "https://djangoauthenticate.herokuapp.com/",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const projects = [
     category: "react",
     img: "./images/js.png",
     github: "https://github.com/chakravarthi-giduthuri/react-task-tracker",
-    link: "https://djangoauthenticate.herokuapp.com/",
+    link: "https://todo-task-tracker.netlify.app/",
   },
 ];
 
