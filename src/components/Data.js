@@ -35,6 +35,14 @@ const projects = [
     link:
       "https://github.com/chakravarthi-giduthuri/Python-Projects/blob/main/phonebook.py",
   },
+  {
+    id: 5,
+    title: "My College",
+    category: "django",
+    img: "./images/django.png",
+    github: "https://github.com/chakravarthi-giduthuri/College",
+    link: "https://collegemaz.herokuapp.com/",
+  },
 ];
 
 export default projects;
