@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
-import me from "./me.jpg";
+// import me from "./me.jpg";
+import kk from "./kk.jpg";
 import Nav from "./Nav";
 // import { Link } from "react-router-dom";
 import {
@@ -30,7 +31,7 @@ function Home() {
             </p>
           </div>
         </div>
-        <img className="element" src={me} alt="name" />
+        <img className="element" src={kk} alt="name" />
       </div>
       <div className="footer">
         <a href="https://www.instagram.com/madcodder/">
